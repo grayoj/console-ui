@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 interface SignupProps {}
 
-export const signup: React.FC<SignupProps> = () => {
+const Signup: React.FC<SignupProps> = () => {
   const [showPassword, setShowPassword] = useState(false);
   return (
     <div>
@@ -133,3 +133,5 @@ export const signup: React.FC<SignupProps> = () => {
     </div>
   );
 };
+
+export default Signup;
