@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 interface AuthenticationProps {}
 
-export const Authentication: React.FC<AuthenticationProps> = () => {
+const Authentication: React.FC<AuthenticationProps> = () => {
   const [showPassword, setShowPassword] = useState(false);
   return (
     <div>
@@ -108,3 +108,5 @@ export const Authentication: React.FC<AuthenticationProps> = () => {
     </div>
   );
 };
+
+export default Authentication;
