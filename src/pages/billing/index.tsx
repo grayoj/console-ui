@@ -1,6 +1,8 @@
 import React from "react";
 
-const Billing: React.FC () => {
+interface BillingProps {}
+
+const Billing: React.FC<BillingProps> = () => {
   return <div>Billing</div>
 }
 
