@@ -1,5 +1,5 @@
-import { Dashboard } from "@suburban/modules/Dashboard";
+import Authentication from './auth';
 
 export default function Home() {
-  return <Dashboard />;
+  return <Authentication />;
 }
