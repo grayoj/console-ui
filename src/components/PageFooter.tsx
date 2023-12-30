@@ -8,13 +8,13 @@ export const PageFooter: React.FC<PageFooterProps> = () => {
       <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
         <div className="sm:flex sm:items-center sm:justify-between">
           <a
-            href="https://flowbite.com/"
+            href="https://suburbancloud.ng"
             className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse"
           >
             <img
               className="h-20 w-auto"
               src="https://web.suburbancloud.ng/wp-content/uploads/2023/11/logo-black-red.svg"
-              alt="Your Company"
+              alt="Suburban Fiber Company"
             />
           </a>
           <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
